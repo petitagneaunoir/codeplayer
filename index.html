@@ -64,7 +64,6 @@
             }
 
             iframe {
-                background-color: #252525;
                 padding-left: 5px;
                 position: absolute;
                 top: 40;
@@ -95,6 +94,8 @@
         </div>
 
         <script type="text/javascript">
+
+            $("iframe").css("background-color", "#252525");
 
             $(".toggleButton").hover(function() {
                 $(this).addClass("highlightedButton");
